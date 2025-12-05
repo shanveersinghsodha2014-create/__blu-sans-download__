@@ -1,30 +1,54 @@
-# Blu Sans
+# BluSans
 
-**Blu Sans** is a modern, clean, and versatile sans‑serif font designed for readability and style. Perfect for both digital and print use, Blu Sans brings a contemporary touch to your projects.
-
----
-
-## Overview
-
-Blu Sans is an open‑source typeface created and maintained by **S&J Trading, Corparated**. It’s intended to deliver a sleek and minimalist aesthetic — ideal for user interfaces, branding, headlines, and body text.
-
----
+**BluSans** is a modern, sans-serif font designed and developed by S&J Trading Corporation.  
+It’s clean, versatile, and perfect for both digital and print use.
 
 ## Features
 
-- Clean, geometric sans‑serif design  
-- Multiple weights (Light, Regular, Bold, etc.)  
-- Support for Latin alphabet and common diacritics  
-- Optimized for screen and print use  
-- Licensed under the **MIT License**
+- Sans-serif, modern style  
+- Optimized for readability at various sizes  
+- Supports basic Latin characters  
 
----
+## Installation
 
-## Usage
+### On Windows/macOS
 
-### Install / Get the Font
+1. Download the `BluSans.ttf` file from this repository.  
+2. Double-click the font file and click **Install**.
 
-Since there’s currently **no official release** published, you can obtain the font by cloning or downloading the repository directly:
+### On Linux
 
-```bash
-git clone https://github.com/shanveersinghsodha2014-create/__blu-sans-download__.git
+Copy the `BluSans.ttf` file to your `~/.fonts` or `/usr/share/fonts` directory and run `fc-cache -fv`.
+
+### On Web
+
+Use `@font-face` in your CSS:
+
+```css
+@font-face {
+  font-family: 'BluSans';
+  src: url('BluSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal
+```
+}
+
+Then apply the font with:
+```css
+body {
+  font-family: 'BluSans', sans-serif;
+}
+```
+License
+
+BluSans is released under the MIT License — see the LICENSE file for details.
+
+Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page if you want to help.
+
+Contact
+
+Created by S&J Trading Corporation.
+GitHub: shanveersinghsodha2014-create

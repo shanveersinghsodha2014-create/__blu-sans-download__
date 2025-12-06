@@ -30,9 +30,9 @@ Use `@font-face` in your CSS:
   src: url('BluSans.ttf') format('truetype');
   font-weight: normal;
   font-style: normal
-```
-}
 
+}
+```
 Then apply the font with:
 ```css
 body {
